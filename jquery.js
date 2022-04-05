@@ -20,6 +20,7 @@ jQuery(function () {
     }
     if (!$("label").hasClass("warning")) {
       $("#form").remove();
+      $("h2").html("Thanks......................");
     }
   });
 });
